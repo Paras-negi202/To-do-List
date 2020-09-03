@@ -1,0 +1,56 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background: lightslategray;
+}
+.calculator{
+    flex: 0 0 95%;
+}
+
+.screen{
+    width: 100%;
+    font-size: 7rem;
+    padding: 0.5rem;
+    background:rgb(19, 103, 109);
+    color: white;  
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s ease-in-out;
+
+}
+button{
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    transition: all 1s ease;
+}
+button:hover{
+    background: blue;
+}
+.btn-yellow{
+    background: yellow;
+    font-size: 4rem;
+}
+.btn-grey{
+    background: grey;
+    font-size: 4rem;
+}
+.btn-equal{
+    background: red;
+    font-size: 4rem;
+}
+.btn-clear{
+    background: red;
+    font-size: 4rem;
+}
